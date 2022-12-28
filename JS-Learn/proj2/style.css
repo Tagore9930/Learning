@@ -1,0 +1,165 @@
+body {
+  background: rgb(66, 66, 66);
+  min-height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+.color-hover-1 {
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.maroon {
+  background: #800000;
+  margin-right: 5px;
+}
+.red {
+  background: #ff0000;
+  margin-right: 5px;
+}
+.orange {
+  background: #ffa500;
+  margin-right: 5px;
+}
+.yellow {
+  background: #ff0;
+  margin-right: 5px;
+}
+.olive {
+  background: #808000;
+  margin-right: 5px;
+}
+
+.color-hover-2 {
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.purple {
+  background: #800080;
+  margin-right: 5px;
+}
+.fuchsla {
+  background: #ff0fff;
+  margin-right: 5px;
+}
+.pink {
+  background: pink;
+  margin-right: 5px;
+}
+.lime {
+  background: #00ff00;
+  margin-right: 5px;
+}
+.green {
+  background: #008000;
+  margin-right: 5px;
+}
+
+.color-hover-3 {
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.orangered {
+  background: orangered;
+  margin-right: 5px;
+}
+.deeppink {
+  background: deeppink;
+  margin-right: 5px;
+}
+.black {
+  background: #000;
+  margin-right: 5px;
+}
+.sliver {
+  background: #c0c0c0;
+  margin-right: 5px;
+}
+.gray {
+  background: #808080;
+  margin-right: 5px;
+}
+
+.color-hover-4 {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.navy {
+  background: #000080;
+  margin-right: 5px;
+}
+.blue {
+  background: #00f;
+  margin-right: 5px;
+}
+.royalBlue {
+  background: #2A6AFF;
+  margin-right: 5px;
+}
+.aqua {
+  background: #0ff;
+  margin-right: 5px;
+}
+.teal {
+  background: #008080;
+  margin-right: 5px;
+}
+
+.center {
+  min-width: 400px;
+  height: 400px;
+  background: rgb(66, 66, 66);
+  border-radius: 100%;
+  transition: 0.2s ease-in-out all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.color {
+  width: 120px;
+  height: 30px;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+.color:hover {
+  cursor: pointer;
+}
+.color:last-child {
+  margin-bottom: 0;
+}
