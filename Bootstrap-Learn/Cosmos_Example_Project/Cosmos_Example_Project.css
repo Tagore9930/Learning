@@ -1,0 +1,29 @@
+.navbar > .container,
+.navbar > .container-fluid{
+  display: block;
+}
+
+.list-group-item {
+  cursor: pointer;
+  border: none;
+}
+
+.Menu {
+  cursor: pointer;
+}
+
+.card-body {
+  height: 672px;
+  position: absolute;
+  border-radius: 0px;
+}
+
+.card-body a {
+  font-size: 15px;
+  color: #818181;
+  outline: none;
+}
+
+.card-body a:hover {
+  color: #f1f1f1;
+}

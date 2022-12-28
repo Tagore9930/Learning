@@ -1,0 +1,17 @@
+.left{
+   max-height: 165px;
+   overflow-y: scroll;
+}
+
+.right{
+   min-height: 688px;
+}
+
+.list-group-item.list-group-item{
+   background-color: transparent;
+   color: white;
+}
+
+h1 {
+   text-align: center;
+}
